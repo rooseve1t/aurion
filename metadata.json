@@ -1,0 +1,8 @@
+{
+  "name": "AURION",
+  "description": "Autonomous Intelligence Platform - Next-gen AI OS for proactive management, memory fabric, and system control.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}

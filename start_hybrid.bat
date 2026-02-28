@@ -1,0 +1,13 @@
+@echo off
+echo Запуск установки AURION Hybrid Core...
+
+cd python_core
+echo Установка зависимостей Python...
+pip install -r requirements.txt
+
+echo Запуск демона AURION...
+start cmd /k "python main.py"
+
+cd ..
+echo Запуск React Frontend...
+npm run dev
